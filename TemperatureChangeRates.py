@@ -107,3 +107,8 @@ def load(df):
     df.coalesce(1).write.csv('output_data\data_temp_changes', mode='overwrite', header=True)
     
     return None
+
+
+
+if __name__ == '__main__':
+    main()
