@@ -9,7 +9,7 @@ from pyspark.sql import Row
 import pyspark.sql.functions as F
 
 
-def Main(start_date):
+def main(start_date):
     """It provides "Monthly Temperature Change Rates" of Germany, France, UK and USA for spesific date interval. 
     Function requires parameter to get starting date. 
     :param start_date: You should specify starting date to get Data Mart.
