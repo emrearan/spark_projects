@@ -1,6 +1,8 @@
 import findspark
 findspark.init("")
 
+import sys
+
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
 from pyspark.sql import Row
@@ -111,4 +113,4 @@ def load(df):
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1])
