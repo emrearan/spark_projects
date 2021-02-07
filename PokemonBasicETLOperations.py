@@ -90,7 +90,9 @@ def transform(pokemon):
 
 def load(max_attack_per_type,agg_legend_poke,special_criteria_poke):
     """Collect data locally and write to CSV.
-    :param df: DataFrame to print.
+    :param max_attack_per_type: DataFrame 1 to print.
+    :param agg_legend_poke: DataFrame 2 to print.
+    :param special_criteria_poke: DataFrame 3 to print.
     :return: None
     """
     
