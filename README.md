@@ -1,3 +1,3 @@
 # spark_projects
 
-Still working on it, it is not finished yet
+Still working on it, not finished yet
