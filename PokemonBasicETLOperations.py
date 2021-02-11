@@ -72,7 +72,7 @@ def transform(pokemon):
     
     agg_legend_poke = pokemon
     agg_legend_poke = agg_legend_poke.where((F.col("Legendary") == True) & (F.col("Type_2") == 'Flying')) \
-                      .groupBy("Type_1").agg(F.count('Total').alias('Total_Number'), F.mean('Total').alias('Average Power')) \
+                      .groupBy("Type_1").agg(F.count('Total').alias('Total_Number'), F.mean('Total').alias('Average_Power')) \
                       .orderBy(F.col('Total_Number').desc())
     
     
