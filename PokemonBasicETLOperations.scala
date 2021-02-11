@@ -1,4 +1,4 @@
-package com.sundogsoftware.spark
+package com.yourproject.spark
 
 import org.apache.spark.sql._
 import org.apache.log4j._
@@ -67,11 +67,11 @@ object PokemonBasicETLOperations {
 
 
 
-    max_attack_per_type.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/SparkScalaCourse/SparkScalaCourse/output_data/pokemon/max_attack_per_type")
+    max_attack_per_type.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/your_location/output_data/pokemon/max_attack_per_type")
 
-    agg_legend_poke.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/SparkScalaCourse/SparkScalaCourse/output_data/pokemon/agg_legend_poke")
+    agg_legend_poke.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/your_location/output_data/pokemon/agg_legend_poke")
 
-    special_criteria_poke.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/SparkScalaCourse/SparkScalaCourse/output_data/pokemon/special_criteria_poke")
+    special_criteria_poke.coalesce(1).write.mode("overwrite").format("csv").option("header", "true").save("/your_location/output_data/pokemon/special_criteria_poke")
 
 
 
