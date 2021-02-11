@@ -21,20 +21,11 @@ object PokemonBasicETLOperations {
       .master("local[*]")
       .getOrCreate()
 
-    // Convert our csv file to a DataSet, using our Person case
-    // class to infer the schema.
-
-
 
     var pokemon = spark.read
       .option("header", "true")
       .option("inferSchema", "true")
       .csv("data/Pokemon.csv")
-
-    // There are lots of other ways to make a DataFrame.
-    // For example, spark.read.json("json file path")
-    // or sqlContext.table("Hive table name")
-
 
 
     pokemon = pokemon.withColumnRenamed("Type 1", "Type_1")
