@@ -1,4 +1,4 @@
-# spark_projects
+# Spark Projects
 
 This project includes ETL processes. It is intended to help those who want to code on Spark.
 
