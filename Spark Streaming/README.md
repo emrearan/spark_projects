@@ -1,4 +1,4 @@
-# Spark Streaming Applications
+# Spark Streaming Application
 
 This project includes streaming application. To run application you should have Spark and MongoDB.
 
