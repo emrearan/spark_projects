@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "date": "2021-05-22 20:40:37",
+    "jokes": [
+      {
+        "id_": 88,
+        "type": "2021-05-22 20:40:32",
+        "setup": "general",
+        "punchline": "Did you hear about the cheese factory that exploded in France?"
+      },
+      {
+        "id_": 70,
+        "type": "2021-05-22 20:40:32",
+        "setup": "general",
+        "punchline": "I can't tell if i like this blender..."
+      },
+      {
+        "id_": 125,
+        "type": "2021-05-22 20:40:32",
+        "setup": "general",
+        "punchline": "How do you fix a damaged jack-o-lantern?"
+      }
+    ]
+  }
+]
