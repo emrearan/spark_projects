@@ -1,4 +1,4 @@
-# Spark Projects
+# Spark ETL Applications
 
 This project includes ETL processes. It is intended to help those who want to code on Spark.
 
@@ -13,5 +13,3 @@ Second ETL job is about temperature change. In this case, there is an assumption
 - Temperature change data is taken from: https://www.kaggle.com/sevgisarac/temperature-change
 
 - Original data is from: http://www.fao.org/faostat/en/#data/ET/metadata
-
-You can use the code wherever you want.
