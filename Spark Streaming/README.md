@@ -2,13 +2,13 @@
 
 This project includes streaming application. To run application you should have Spark and MongoDB.
 
-- Spark can be downloaded from [here](https://spark.apache.org/downloads.html "here")
+- Spark can be downloaded from [__here__](https://spark.apache.org/downloads.html "here")
 
-- Free version of MongoDB can be downloaded from [here](https://www.mongodb.com/ "here")
+- Free version of MongoDB can be downloaded from [__here__](https://www.mongodb.com/ "here")
 
-Reading Data From Web API and Create CSV File : [__streaming.ipynb__](https://www.mongodb.com/ "__streaming.ipynb__")
+Reading Data From Web API and Create CSV File : [__streaming.ipynb__](https://github.com/emrearan/spark_projects/blob/main/Spark%20Streaming/streaming.ipynb "__streaming.ipynb__")
 
-Spark Streaming From File to MongoDB:  [__readingData.ipynb__](https://www.mongodb.com/ "__readingData.ipynb__")
+Spark Streaming From File to MongoDB:  [__readingData.ipynb__](https://github.com/emrearan/spark_projects/blob/main/Spark%20Streaming/readingData.ipynb "__readingData.ipynb__")
 
 The purpose of project is to get data from csv files and write it to MongoDB. To try application:
 
