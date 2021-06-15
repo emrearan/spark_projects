@@ -34,3 +34,5 @@ Flow goes like followings:
 6. Again, spark will realize new data and get and action.
 
 7. To sum up, Spark will get data from folder __/data/input/__ and write to __MongoDB__ whenever data comes.
+
+__Note:__ Data is taken from following link: https://official-joke-api.appspot.com/random_joke
